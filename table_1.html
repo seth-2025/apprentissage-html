@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <style>
+                body{
+            background-color: rgb(14, 214, 164);
+            font-weight: bolder;
+            color: black;
+        }
+        h1{
+            text-align: center;
+            background-color: antiquewhite;
+            border-width: 2px;
+            border-color: rgb(23, 22, 24);
+            border-style: solid;
+        }
+        p{
+            font-size: 200%;
+            text-align: justify;
+            font-weight: bolder;
+            font-variant: small-caps;
+        }
+        strong{
+            background-color: aqua;
+            font-size: larger;
+        }
+        thead{
+            background-color: rgb(155, 155, 155);
+        }
+    </style>
+    <title>Tableaux en HTML 3</title>
+</head>
+<body>
+    <h1>Tableaux : mise en forme</h1>
+    <table>
+        <caption>Exemple de table avec mise en forme</caption>
+        <thead>
+            <tr>
+                <th style="border-radius: 10px 0 0 0;"></th>
+                <th>Colonne 1</th>
+                <th style="border-radius: 0 10px 0 0;">Colonne 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>LIGNE 1</th>
+                <td>Ceci est la case <br> d'en haut à gauche</td>
+                <td>Ceci est la case <br> d'en haut au milieu</td>
+                <td>Ceci est la case <br> d'en haut à droite</td>
+            </tr>
+            <tr>
+                <th style="border-radius: 0 0 0 10px;">LIGNE 2</th>
+                <td>Ceci est la case <br> d'en bas à gauche</td>
+                <td>Ceci est la case <br> d'en bas au milieu</td>
+                <td style="border-radius: 0 0 10px 0;">Ceci est la case <br> d'en bas à droite</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

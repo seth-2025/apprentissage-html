@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="FR">
+<head>
+    <meta charset="UTF-8" />
+    <style>
+        body{
+            background-color: rgb(14, 214, 164);
+            font-weight: bolder;
+            color: black;
+        }
+        h1{
+            text-align: center;
+            background-color: antiquewhite;
+            border-width: 2px;
+            border-color: rgb(23, 22, 24);
+            border-style: solid;
+        }
+        p{
+            font-size: 200%;
+            text-align: justify;
+            font-weight: bolder;
+            font-variant: small-caps;
+        }
+        strong{
+            background-color: aqua;
+            font-size: larger;
+        }
+        table{
+            font-size: 120%;
+            border-color: black;
+        }
+    </style>
+    <title>table_1</title>
+</head>
+<body>
+    <h1>Tableaux: en-tête de lignes et de colones</h1>
+    <p>Voici une table avec le style par defaut et avec des en-têtes(titres) de ligne et colonne.</p>
+    <table>
+        <caption>Exemple de table sans remise en forme</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>
+                    <strong>Colonne 1</strong>
+                </th>
+                <th><strong>Colonne 2</strong></th>
+                <th><strong>Colonne 3</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th><strong>LIGNE 1</strong></th>
+                <td>Ceci est la case <br>d'en haut à gauche</td>
+                <td>Ceci est la case <br>d'en haut au milieu</td>
+                <td>Ceci est la case <br>d'en haut à droite</td>
+            </tr>
+            <tr>
+                <th><strong>LIGNE 2</strong></th>
+                <td>Ceci est la case <br>d'en bas à gauche</td>
+                <td>Ceci est la case <br>d'en bas au milieu</td>
+                <td>Ceci est la case <br>d'en bas à droite</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

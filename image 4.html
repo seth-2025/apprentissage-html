@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <STYLe>
+          body {
+            font-size: 125%;
+            background-color: #a2a1a2;
+            color: #333333;
+            font-weight: bold;
+        }
+        p{
+            text-align: justify;
+        }
+        h1{
+            text-align: center;
+            font-size: 150%;
+            background-color: #e5e6e6;
+            border-style: solid;
+            border-color: rgb(26, 25, 25);
+            border-width: 2px;
+        }
+    </STYLe>
+    <title>Sous-figures avec legendes en HTML</title>
+</head>
+<body>
+    <h1>Sous-figures avec légendes en HTML </h1>
+    <p>On crée des sous-titres en imbriquant balises fugure : <br> On peut faire en sorte que les figures se mettent l'une à coté de l'autre avec la propriété <i>CSS</i> <code>inline-block;</code> </p>
+    <figure style="text-align: center;">
+        <figure style="display: inline-block;">
+            <img src="image-1.jpg" alt="noa piture 1" width="150" style="vertical-align: middle;">
+            <figcaption><b>(b)</b>image de <i>NOA</i>1</figcaption>
+        </figure>
+        <figure style="display: inline-block;">
+            <img src="imaage_2.jpg" alt="Noa piture 2" width="150" style="vertical-align: middle;">
+            <figcaption><b>(b)</b> image de <i>NOA</i> 2</figcaption>
+        </figure>
+        <figcaption><b>FIGURE 1.</b> Exemples de logos de logiciels ou licences Open Source</figcaption>
+    </figure>
+</body>
+</html>
