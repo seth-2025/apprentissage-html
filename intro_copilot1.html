@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background: linear-gradient(to top, #162236 , #162236), 
+                        url(file:///C:/Users/DG/AppData/Local/Temp/33ea73c1-3c08-4683-a88d-c81f0831950a_fylo-dark-theme-landing-page-master.zip.50a/fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg) no-repeat center top;
+            background-size: cover;
+            color: white; /* Pour bien voir le texte */
+            font-family: Arial, sans-serif; /* Police de caractères */
+        }
+
+        .background{
+            background-image: url(file:///C:/Users/DG/AppData/Local/Temp/33ea73c1-3c08-4683-a88d-c81f0831950a_fylo-dark-theme-landing-page-master.zip.50a/fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg);
+            width: 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            position: absolute;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 80px;
+        }
+        .logo{
+            color: white;
+            font-size: 30px;
+        }
+        .logo span{
+            color: blue;
+        }
+        .navbar ul{
+            list-style: none;
+            display: flex;
+        }
+        .navbar ul li{
+            color: white;
+            padding: 10px 30px;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        .navbar ul li a:hover{
+            color: blue;
+        }
+        .content{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+        }
+        button{
+            background-color: rgb(7, 190, 83);
+            color: white;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border: none;
+            border-radius: 20px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .messages {
+            display: flex;
+            justify-content: center; /* Centrer les messages */
+            gap: 20px; /* Espacement entre eux */
+            margin-top: 20px; /* Espace après le bouton */
+            flex-wrap: wrap; /* Pour s’adapter sur mobile */
+        }
+
+        .message {
+            padding: 15px 25px;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            backdrop-filter: blur(5px); /* Effet de flou */
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="logo"> Fylo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">acceuil</a></li>
+                <li><a href="#">team</a></li>
+                <li><a href="#">comments</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <img src="illustration-intro.png" alt="illustration1">
+        <div class="background">
+            <h1>All your files in one secure location, <br> accessible anywhere.</h1>
+            <p> Fylo stores all your most important files in one secure location. <br> Access them wherever you need, share and collaborate with <br> friends family, and co-workers.</p>
+            <button>Get Started</button>
+            <p>
+                <div class="messages">
+                    <div class="message">
+                        <img src="file:///C:/Users/DG/AppData/Local/Temp/1e909667-1713-41ea-bf6f-3f2771894611_fylo-dark-theme-landing-page-master.zip.611/fylo-dark-theme-landing-page-master/images/icon-access-anywhere.svg" alt="illustration2">
+                        <h1>Access your files, anywhere</h1>
+                        <p>The ability to use smartphone, tablet, or computer <br> to access your account means yournfiles follow you <br> everywhere</p>
+                    </div>
+                    <div class="message">
+                        <img src="file:///C:/Users/DG/AppData/Local/Temp/04653966-d562-404b-bc3f-56786450450a_fylo-dark-theme-landing-page-master.zip.50a/fylo-dark-theme-landing-page-master/images/icon-security.svg" alt="illustration3">
+                        <h1>Security you can trust</h1>
+                        <p>2-factor authentication and user-controlled encryption are <br> just a couple of the Security features we allow to help <br> secure your files.</p>
+                    </div>
+                </div>
+                <div class="messages">
+                    <div class="message">
+                        <img src="file:///C:/Users/DG/AppData/Local/Temp/12aa6596-4cdd-488d-ab86-f520ec88e07f_fylo-dark-theme-landing-page-master.zip.07f/fylo-dark-theme-landing-page-master/images/icon-collaboration.svg" alt="illustration4">
+                        <h1>Real-time collaboration</h1>
+                        <p>
+                            Securely share files and folders with friends, family and <br> colleagues for live collaboration. No email  attachments <br> required.
+                        </p>
+                    </div>
+                    <div class="message">
+                        <img src="file:///C:/Users/DG/AppData/Local/Temp/6a524a3f-5733-4fbb-a5f5-4ea297226fd0_fylo-dark-theme-landing-page-master.zip.fd0/fylo-dark-theme-landing-page-master/images/icon-any-file.svg" alt="illustration5">
+                        <h1>Store any type of file</h1>
+                        <p>Whether you're sharing holidays photos or work  <br> documents, Fylo has you covered allowing for all file <br> types to be securely stored and shared.</p>
+                    </div>
+                </div>
+                <div class="messages">
+                    <div class="message">
+                        <img src="illustration-stay-productive.png" alt="illustration6">
+                    </div>
+                    <div class="message" style="text-align: justify; top: 50px;">
+                        <h1>Stay productive, <br> wherever you are</h1>
+                        <p>Never let location be an issue when accessing your files. <br> Fylo has you covered for all of your file storage needs.</p>
+                        <p>Security share files and folders with friends, family and colleagues for live  <br> collaboration. No email attachments required.</p>
+                        <a href="#" style="text-decoration: none; top:">See how fylo works</a>
+                </div>
+            </p>
+        </div>
+        <div class="messages" style="background-image: url(file:///C:/Users/DG/AppData/Local/Temp/33ea73c1-3c08-4683-a88d-c81f0831950a_fylo-dark-theme-landing-page-master.zip.50a/fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg);">
+            <div class="message" style="background-image: url(ile:///C:/Users/DG/AppData/Local/Temp/33ea73c1-3c08-4683-a88d-c81f0831950a_fylo-dark-theme-landing-page-master.zip.50a/fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg);">
+                <h1 style="border-bottom: #fff ; border-color: bisque;">Get early access today</h1>
+                <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+                <div class="messages">
+        </div>
+    </div>
+</body>
+</html>
